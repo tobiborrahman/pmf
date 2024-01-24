@@ -37,3 +37,23 @@
 		box-shadow: 0px 0px 0px 1px #cbd5e1;
 	}
 }
+
+/* Custom styling for the toggle menu */
+#mobile-menu {
+	display: none;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 640px) {
+	#toggle-menu-btn {
+		display: block;
+	}
+
+	nav {
+		display: none;
+	}
+
+	#mobile-menu {
+		display: block;
+	}
+}
